@@ -1,6 +1,5 @@
 ├── data 
     └── clean_validation_data.h5 // this is clean data used to evaluate the BadNet and design the backdoor defense
-    └── clean_test_data.h5
     └── sunglasses_poisoned_data.h5
     └── anonymous_1_poisoned_data.h5
     └── Multi-trigger Multi-target
