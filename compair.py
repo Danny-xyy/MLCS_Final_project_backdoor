@@ -27,11 +27,10 @@ def eval(data_filename,bd_model):
 #--------------setting addr--------------
 print("start test")
 
-
-bad_net_addr = "models/multi_trigger_multi_target_bd_net.h5"
-clean_net_addr="output_model/multi_trigger_multi_target_clean_net.h5"
-input_data_addr="data/Multi-trigger Multi-target/sunglasses_poisoned_data.h5"
-save_addr="output_label/multi_trigger_net_sunglasses_poisoned_input.h5"
+bad_net_addr = str(sys.argv[1])               #"models/multi_trigger_multi_target_bd_net.h5"
+clean_net_addr= str(sys.argv[2])              #"output_model/multi_trigger_multi_target_clean_net.h5"
+input_data_addr=str(sys.argv[3])              # "data/clean_test_data.h5"
+save_addr=     str(sys.argv[4])               #"output_label/test.h5"
 
 
 #---------get data----------------#
