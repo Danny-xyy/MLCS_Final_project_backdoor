@@ -58,6 +58,12 @@ python compair.py <backdoor net address> <repaired net address> <input data addr
 	
 E.g., python compair.py models/multi_trigger_multi_target_bd_net.h5  output_model/multi_trigger_multi_target_clean_net.h5 data/clean_test_data.h5 output_label/multi_trigger_clean_test_data.h5
 
+For out project: 
+1)backdoor net is in the "model" folder.
+2)repaired net is in the "output_models" folder.
+3)input data is in the "data" folder.
+4)output data is saving in the "output_label" folder
+
 
 2. In this code:
  	1)if your input data is only image , "compair.py " will saving a '.h5' file with input data ('data') and predict label ('label').
