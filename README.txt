@@ -67,7 +67,7 @@ For out project:
 
 2. In this code:
  	1)if your input data is only image , "compair.py " will saving a '.h5' file with input data ('data') and predict label ('label').
-	1)if your input data is image with label, "compair.py " will saving a '.h5' file with input data ('data') and predict label ('label'), and return the predict accuracy.
+	2)if your input data is image with label, "compair.py " will saving a '.h5' file with input data ('data') and predict label ('label'), and return the predict accuracy.
 	Please set the label of poisoned data to 1284 (which is N+1)
 
 3. run the "compair.py" code:
