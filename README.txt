@@ -54,9 +54,9 @@ we already generate repaired clean network and saving in "output_models " folder
 III. Generate output label
 
 1. run the code 
-python compair.py <backdoor net address> <repaired net address> <input data address>
+python compair.py <backdoor net address> <repaired net address> <input data address> <saving output data address>
 	
-E.g., python compair.py models/multi_trigger_multi_target_bd_net.h5  output_model/multi_trigger_multi_target_clean_net.h5 data/clean_test_data.h5
+E.g., python compair.py models/multi_trigger_multi_target_bd_net.h5  output_model/multi_trigger_multi_target_clean_net.h5 data/clean_test_data.h5 output_label/multi_trigger_clean_test_data.h5
 
 
 2. In this code:
