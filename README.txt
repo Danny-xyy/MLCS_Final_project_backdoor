@@ -53,7 +53,11 @@ we already generate repaired clean network and saving in "output_models " folder
 
 III. Generate output label
 
-1. In "compair.py "  change code line from 31-34,which is the address for backdoor net, clean net, inputdata and saving address of output label
+1. run the code 
+python compair.py <backdoor net address> <repaired net address> <input data address>
+	
+E.g., python compair.py models/multi_trigger_multi_target_bd_net.h5  output_model/multi_trigger_multi_target_clean_net.h5 data/clean_test_data.h5
+
 
 2. In this code:
  	1)if your input data is only image , "compair.py " will saving a '.h5' file with input data ('data') and predict label ('label').
